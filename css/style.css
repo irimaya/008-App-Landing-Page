@@ -1,0 +1,71 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.7em;
+  color: #2f2d38;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  line-height: 1.7em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Utility Class */
+.box-2 {
+  float: left;
+  width: 50%;
+  height: 100vh;
+}
+
+/* Display Img */
+#display-img {
+  background: #f9f9f9;
+  
+}
+
+#display-img img {
+  display: table;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 400px;
+}
+
+/* Display Content */
+#display-content {
+  text-align: center;
+  padding: 270px 130px;
+}
+
+#display-content img {
+  width: 160px;
+}
+
+#display-content p {
+  padding: 0px 10px 10px 10px;
+}
+
+#display-content ul{
+  list-style: none;
+  padding-bottom: 20px;
+  color: #ffc038;
+}
+
+#display-content li {
+  display: inline-block;
+}
+
+#display-content li:last-child {
+  color: #2f2d38;
+}
